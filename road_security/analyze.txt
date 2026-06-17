@@ -1,0 +1,24 @@
+﻿Analyzing road_security...                                      
+
+   info - Don't invoke 'print' in production code - lib\main.dart:15:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\camera_screen.dart:112:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\camera_screen.dart:147:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\screens\camera_screen.dart:221:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\camera_screen.dart:284:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\login_screen.dart:111:53 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\services\detection_service.dart:25:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\detection_service.dart:27:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\detection_service.dart:52:7 - avoid_print
+   info - Use 'const' for final variables initialized to a constant value - lib\services\detection_service.dart:106:5 - prefer_const_declarations
+   info - The imported package 'path' isn't a dependency of the importing package - lib\services\supabase_service.dart:5:8 - depend_on_referenced_packages
+warning - The value of the local variable 'path' isn't used - lib\services\supabase_service.dart:24:13 - unused_local_variable
+   info - Don't invoke 'print' in production code - lib\services\supabase_service.dart:33:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\supabase_service.dart:44:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\supabase_service.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\supabase_service.dart:78:7 - avoid_print
+   info - The imported package 'path' isn't a dependency of the importing package - lib\utils\image_utils.dart:5:8 - depend_on_referenced_packages
+   info - Don't use 'BuildContext's across async gaps - lib\widgets\hazard_card.dart:27:30 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\hazard_card.dart:80:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\hazard_card.dart:82:67 - deprecated_member_use
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
